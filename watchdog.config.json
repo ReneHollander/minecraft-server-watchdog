@@ -1,0 +1,14 @@
+{
+  "minecraft": {
+    "serverdir": "./minecraft/",
+    "serverjar": "minecraft_server.1.7.10.jar",
+    "vmwargs": [
+      "-Xms512M",
+      "-Xmx1024M"
+    ],
+    "minecraftargs": [
+      "nogui"
+    ]
+  },
+  "restartevery": 5
+}

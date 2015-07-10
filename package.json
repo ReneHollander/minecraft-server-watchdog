@@ -1,0 +1,23 @@
+{
+  "name": "minecraft-server-watchdog",
+  "version": "1.0.0",
+  "description": "A NodeJS based Minecraft server watchdog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ReneHollander/minecraft-server-watchdog.git"
+  },
+  "author": "Rene Hollander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ReneHollander/minecraft-server-watchdog/issues"
+  },
+  "homepage": "https://github.com/ReneHollander/minecraft-server-watchdog#readme",
+  "dependencies": {
+    "bluebird": "^2.9.33",
+    "optimist": "^0.6.1"
+  }
+}
