@@ -19,5 +19,10 @@
   "dependencies": {
     "bluebird": "^2.9.33",
     "optimist": "^0.6.1"
-  }
+  },
+  "main": "bin/minecraft-server-watchdog",
+  "preferGlobal": true,
+  "bin": {
+    "minecraft-server-watchdog": "./bin/minecraft-server-watchdog"
+  },
 }
