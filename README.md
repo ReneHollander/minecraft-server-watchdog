@@ -6,10 +6,17 @@ A simple NodeJS application that manages a minecraft server.
 - Autorestart on crash
 - Restart interval
 
+# Commands
+- **Ingame**
+  - `/stop`: Restart the server
+- **Command Line**
+  - `/stop`: Stops the server
+  - `/restart`: Restarts the server
+
 # Usage
-- Clone repository
-- Setup config file (look at `watchdog.config.json`)
-- Start with `node path/to/this/repository` in directory of config file
+- Install with `npm install -g minecraft-server-watchdog`
+- Setup config file in directory of server (look at `watchdog.config.json` in repository)
+- Execute `minecraft-server-watchdog` in the directory of the config file
 - ???
 - Profit!
 
