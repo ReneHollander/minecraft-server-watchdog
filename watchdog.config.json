@@ -10,5 +10,5 @@
       "nogui"
     ]
   },
-  "restartevery": 5
+  "restartevery": 60
 }
